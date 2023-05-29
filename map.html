@@ -3,18 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monterey Bay Marine Wildlife</title>
+    <title>Interactive Map</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+    <script src="map.js"></script>
 </head>
 <body>
-    <header id="home-header">
-        <div>
-            <h1>Discover Monterey Bay's Marine Wildlife</h1>
-            <p>Explore the amazing creatures that inhabit this unique ecosystem</p>
-        </div>
-    </header>
-
     <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About Monterey Bay</a>
@@ -24,5 +20,12 @@
         <a href="map.html">Map</a>
         <a href="contact.html">Contact</a>
     </nav>
+
+    <main>
+        <section id="map-container">
+            <h2>Interactive Map of Monterey Bay</h2>
+            <div id="map"></div>
+        </section>
+    </main>
 </body>
 </html>

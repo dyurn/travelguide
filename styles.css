@@ -12,7 +12,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: white !important;
     text-align: center;
     position: relative;
 }
@@ -254,7 +254,7 @@ nav a:hover {
 
 /* Section 1 - Marine Mammals */
 #mammals {
-    background-image: url('your-marine-mammals-image.jpg');
+    background-image: url('https://mld51zevnb5e.i.optimole.com/w:1600/h:800/q:mauto/f:avif/https://localgetaways.com/california/wp-content/uploads/sites/5/2021/12/do_whale-watching_humpback_800x400_mike-doherty.png');
     background-size: cover;
     background-position: center;
     padding: 4rem 2rem;
@@ -281,7 +281,7 @@ nav a:hover {
 
 /* Section 2 - Fish */
 #fish {
-    background-image: url('your-fish-image.jpg');
+    background-image: url('https://pbs.twimg.com/media/D2hfEGSVYAAYe4y?format=jpg&name=4096x4096');
     background-size: cover;
     background-position: center;
     padding: 4rem 2rem;
@@ -308,7 +308,7 @@ nav a:hover {
 
 /* Section 3 - Seabirds */
 #birds {
-    background-image: url('your-seabirds-image.jpg');
+    background-image: url('https://www.msc.org/images/default-source/msc-english/news-images/albatross-glides-over-the-southern-atlantic-ocean-copyright-tony-fitzsimmons.jpg?sfvrsn=e4beb8ea_2');
     background-size: cover;
     background-position: center;
     padding: 4rem 2rem;
@@ -364,7 +364,7 @@ nav a:hover {
 
 /* Section - Whale Watching */
 #whale-watching {
-    background-image: url('your-whale-watching-image.jpg');
+    background-image: url('https://fh-sites.imgix.net/sites/3088/2022/06/07190605/atlantis-whales.jpg?auto=compress%2Cformat&w=1024&h=1024&fit=max');
     background-size: cover;
     background-position: center;
     padding: 4rem 2rem;
@@ -391,7 +391,7 @@ nav a:hover {
 
 /* Section - Kayaking */
 #kayaking {
-    background-image: url('your-kayaking-image.jpg');
+    background-image: url('https://www.montereybaykayaks.com/uploads/7/4/6/8/74681279/editor/kayaking-with-sea-lions-in-water-2.jpg?1652720986');
     background-size: cover;
     background-position: center;
     padding: 4rem 2rem;
@@ -418,7 +418,7 @@ nav a:hover {
 
 /* Section - Scuba Diving & Snorkeling */
 #scuba-diving {
-    background-image: url('your-scuba-diving-image.jpg');
+    background-image: url('https://img.grouponcdn.com/deal/sWpb6KrKMDaLBZiz16bXw2/3z-5184x3456-2048x1229/v1/c870x524.jpg');
     background-size: cover;
     background-position: center;
     padding: 4rem 2rem;
@@ -445,7 +445,7 @@ nav a:hover {
 
 /* Section - Wildlife Education & Interpretive Programs */
 #wildlife-education {
-    background-image: url('your-wildlife-education-image.jpg');
+    background-image: url('https://www.sewe.com/wp-content/themes/sewe/assets/images/education-1.jpg');
     background-size: cover;
     background-position: center;
     padding: 4rem 2rem;
@@ -472,7 +472,7 @@ nav a:hover {
 
 /* Section - Monterey Bay Aquarium Research Institute (MBARI) */
 #monterey-bay-aquarium-research {
-    background-image: url('your-mbari-image.jpg');
+    background-image: url('https://www.packard.org/wp-content/uploads/2014/11/header-monterey-bay-aquarium-research-institute.jpg');
     background-size: cover;
     background-position: center;
     padding: 4rem 2rem;
@@ -499,7 +499,7 @@ nav a:hover {
 
 /* Section - Elkhorn Slough Conservation */
 #elkhorn-slough-conservation {
-    background-image: url('your-elkhorn-slough-image.jpg');
+    background-image: url('https://assets.simpleviewinc.com/simpleview/image/upload/crm/montereycounty/Elkhorn-slough-reserve-overview_04cdfb25-5056-a36a-0a07348f73920cfa.jpg');
     background-size: cover;
     background-position: center;
     padding: 4rem 2rem;
@@ -526,7 +526,7 @@ nav a:hover {
 
 /* Section - California Marine Life Protection Act */
 #marine-life-protection-act {
-    background-image: url('your-mlpa-image.jpg');
+    background-image: url('https://www.arrancoast.com/wp-content/uploads/2022/06/IMG_1476-1024x683.jpg');
     background-size: cover;
     background-position: center;
     padding: 4rem 2rem;
@@ -553,7 +553,7 @@ nav a:hover {
 
 /* Section - Community Conservation Efforts */
 #community-conservation-efforts {
-    background-image: url('your-community-conservation-image.jpg');
+    background-image: url('https://u4d2z7k9.rocketcdn.me/wp-content/uploads/2021/07/5232095062_284c04294f_c-1200x900.jpg');
     background-size: cover;
     background-position: center;
     padding: 4rem 2rem;
@@ -605,4 +605,69 @@ nav a:hover {
 .contact-person a:hover {
     color: #0056b3;
     text-decoration: underline;
+}
+
+/* Interactive Map */
+
+#map-container {
+    padding: 2rem;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#map-container h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+#map {
+    width: 100%;
+    max-width: 960px;
+    height: 500px;
+    margin-top: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+
+.testimonials-container {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.testimonial {
+    margin-bottom: 1rem;
+}
+
+.testimonial-text {
+    font-size: 1.25rem;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.testimonial-author {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#next-testimonial {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#next-testimonial:hover {
+    background-color: #0056b3;
 }
